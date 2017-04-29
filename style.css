@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main {
+    height: 800px;
+    width: 1200px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.logo-nav {
+    height: 100px;
+    width: 100%;
+    background-color: #02CC83;
+    display: inline-block;
+}
+.logo {
+    height: 100%;
+    width: 50%;
+  
+    float: left;
+}
+.nav {
+    height: 100%;
+    width: 50%;
+    
+    float: left;
+}
+.nav ul{
+        list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 111px;
+    padding-top: 11px;
+}
+.nav ul li{
+        float: left;
+    padding: 13px;
+}
+.nav ul li a{
+        text-decoration: none;
+    color: rgba(255, 255, 255, 0.54);
+}
+.nav ul li a:hover{}
+.mains {
+    height: 470px;
+    width: 850px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 0px 12px black;
+    transform: translatey(-30px);
+    display: block;
+}
+.content {
+    height: 100px;
+    width: 100%;
+   
+    text-align: center;
+        display: inline-block;
+}
+.box {
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+       
+}
+.box ul{
+         background: #cccccc;
+    margin: 0 auto;
+    text-align: center;
+     
+}
+.box ul li{
+            padding: 15px;
+    list-style: none;
+    background: #cccccc;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 25px;
+}
+button {
+    padding: 7px 18px;
+    color: #fff;
+    background: #02cc83;
+    border: 0;
+    box-shadow: 0 4px 5px #7b7b7b;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+img {
+    padding-top: 9px;
+    padding-left: 179px;
+}
+.content h1{
+    padding-top: 13px;
+}
+.content p{
+    padding-top: 13px;
+    font-size: 17px;
+}
+.box h1{}
+.rotate {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+.boxes {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 0 125px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.icon {
+    height: 200px;
+    width: 100%;
+    background: honeydew;
+    display: block;
+}
+.boxes i{
+    transform: rotate(315deg);
+    margin: 31px;
+    font-size: 93px;
+    color: #02cc83;
+}
